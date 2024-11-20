@@ -18,10 +18,10 @@
 		<a href="/trgovina" class={$page.url.pathname === '/trgovina' ? 'font-bold' : ''}>Trgovina</a>
 		<a href="/kalkulator" class={$page.url.pathname === '/kalkulator' ? 'font-bold' : ''}
 			>Kalkulator</a
-		>
+		><a href="/todo" class={$page.url.pathname === '/todo' ? 'font-bold' : ''}>Zadolžitve</a>
 	</div>
 </nav>
 
-<div class="w-full h-screen bg-slate-300">
+<div class="w-full h-screen bg-blue-100">
 	<slot />
 </div>
