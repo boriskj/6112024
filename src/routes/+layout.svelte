@@ -21,6 +21,7 @@
 		><a href="/todo" class={$page.url.pathname === '/todo' ? 'font-bold' : ''}>Zadolžitve</a>
 		<a href="/stevila" class={$page.url.pathname === '/stevila' ? 'font-bold' : ''}>Števila</a>
 		<a href="/posts" class={$page.url.pathname === '/posts' ? 'font-bold' : ''}>Objave</a>
+		<a href="/besede" class={$page.url.pathname === '/besede' ? 'font-bold' : ''}>Besede</a>
 	</div>
 </nav>
 
